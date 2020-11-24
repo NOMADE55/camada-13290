@@ -3,3 +3,8 @@
 # Camada 13290 Desarrollo Web
 ## Lucas Terracino
 
+### Clase 2
+- Enlaces
+- Formularios
+- Listas
+- Tablas

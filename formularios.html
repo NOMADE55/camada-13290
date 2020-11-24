@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2 | C13290 Desarrollo Web</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/tablas.html">Tablas</a>
+            <a href="/listas.html">Listas</a>
+            <a href="/enlaces.html">Enlaces</a>
+            <a href="/formularios.html">Formularios</a>
+            <a href="/">Contenido</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Formularios</h1>
+        <h2>Contacto</h2>
+        <form action="http://prueba-local.test/" method="POST">
+            <div>
+                <label for="fullName">Nombre y Apellido</label>
+                <input name="fullname" id="fullName" type="text">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input name="email" id="email" type="email">
+            </div>
+            <div>
+                <label for="interest">¿En que podemos ayudarte?</label>
+                <select name="interest" id="interest">
+                    <option value="Desarrollo Web">Desarrollo Web</option>
+                    <option value="Email Marketing">Email Marketing</option>
+                    <option value="Manejo de Redes Sociales">Manejo de Redes Sociales</option>
+                    <option value="Venta Online">Venta Online</option>
+                    <option value="Asesoramientro">Asesoramientro</option>
+                    <option value="Otro">Otro</option>
+                </select>
+            </div>
+            <div>
+                <label for="comments">¿Qué necesitas?</label>
+                <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit">Enviar ✉</button>
+        </form>
+        <hr>
+        <h2>Form de Suscripción</h2>
+        <form action="http://prueba-local.test/">
+            <div>
+                <input name="email" id="sub" type="email" placeholder="ejemplo@ejemplo.com">
+                <button type="submit">Suscribirse</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        Copyright Lucas Terracino &copy; 2020
+    </footer>
+</body>
+</html>

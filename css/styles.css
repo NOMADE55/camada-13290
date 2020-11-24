@@ -1,0 +1,30 @@
+* {
+    font-family: monospace;
+    color: #3b3b3b;
+}
+
+a {
+    color: #5f2bfd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+button, input, label, select, textarea {
+    margin-bottom: 8px;
+}
+
+h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+textarea {
+    display: block;
+}
+
+footer {
+    text-align: center;
+}
