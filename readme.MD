@@ -3,8 +3,12 @@
 # Camada 13290 Desarrollo Web
 ## Lucas Terracino
 
-### Clase 2
-- Enlaces
-- Formularios
-- Listas
-- Tablas
+### Clase 3
+### Multimedia
+- Imágenes
+- Videos
+- Audio
+### CSS
+- Insertar CSS
+- Reglas de CSS
+- Cascada y Especificidad
