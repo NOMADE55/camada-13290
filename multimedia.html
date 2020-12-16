@@ -19,20 +19,26 @@
     </header>
     <main>
         <h1>Multimedia</h1>
-        <!-- Image -->
-        <h2>Imagen</h2>
-        <img src="assets/dog.jpg" alt="Imagen de una Pitbull" width="300">
-        <!-- Video -->
-        <h2>Video</h2>
-        <video controls muted width="300">
-            <source src="assets/cinemagraph.webm" type="video/webm">
-            <source src="assets/cinemagraph.mp4" type="video/mp4">
-        </video>
-        <!-- Audio -->
-        <h2>Audio</h2>
-        <audio controls>
-            <source src="assets/nyan.mp3" />
-        </audio>
+        <section>
+            <!-- Image -->
+            <h2>Imagen</h2>
+            <img src="assets/dog.jpg" alt="Imagen de una Pitbull" height="300">
+        </section>
+        <section>
+            <!-- Video -->
+            <h2>Video</h2>
+            <video muted width="300" loop autoplay>
+                <source src="assets/cinemagraph.webm" type="video/webm">
+                <source src="assets/cinemagraph.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section>
+            <!-- Audio -->
+            <h2>Audio</h2>
+            <audio controls>
+                <source src="assets/nyan.mp3" />
+            </audio>
+        </section>
         <h2>Iframe</h2>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </main>
