@@ -3,12 +3,10 @@
 # Camada 13290 Desarrollo Web
 ## Lucas Terracino
 
-### Clase 3
-### Multimedia
-- Imágenes
-- Videos
-- Audio
+### Clase 4
 ### CSS
-- Insertar CSS
-- Reglas de CSS
-- Cascada y Especificidad
+- Reglas de CSS para la letra
+- Utilización de Backgrounds
+- Darle estilo a las listas
+- Insertar nuevas tipografías
+- Entender las unidades de CSS

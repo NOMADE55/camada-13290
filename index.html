@@ -3,51 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clase 3 | C13290 Desarrollo Web</title>
+    <title>Clase 4 | C13290 Desarrollo Web</title>
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700&family=Space+Mono:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="/tablas.html">Tablas</a>
-            <a href="/listas.html">Listas</a>
-            <a href="/enlaces.html">Enlaces</a>
-            <a href="/formularios.html">Formularios</a>
-            <a href="/multimedia.html">Multimedia</a>
-            <a href="/">Contenido</a>
-        </nav>
-    </header>
     <main>
-        <h1>Contenido</h1>
-        <!-- Tags para el Contenido no semánticos -->
-        <h2>Tags para el Contenido no semánticos</h2>
-        <p>&lt;b&gt;: Lorem ipsum dolor sit <b>amet consectetur adipisicing elit</b>. Vitae perspiciatis optio ab esse eaque quos magnam nostrum laborum fugit velit?</p>
-        <p>&lt;i&gt;: Lorem ipsum dolor sit <i>amet consectetur adipisicing elit</i>. Vitae perspiciatis optio ab esse eaque quos magnam nostrum laborum fugit velit?</p>
-        <p>&lt;u&gt;: Lorem ipsum dolor sit <u>amet consectetur adipisicing elit</u>. Vitae perspiciatis optio ab esse eaque quos magnam nostrum laborum fugit velit?</p>
-        <p>&lt;s&gt;: Lorem ipsum dolor sit <s>amet consectetur adipisicing elit</s>. Vitae perspiciatis optio ab esse eaque quos magnam nostrum laborum fugit velit?</p>
-
-        <!-- Tags para el Contenido semánticos -->
-        <h2>Tags para el Contenido no semánticos</h2>
-        <p>&lt;strong&gt;: Lorem ipsum dolor sit <strong>amet consectetur adipisicing elit</strong>. Vitae perspiciatis optio ab esse eaque quos magnam nostrum laborum fugit velit?</p>
-        <p>&lt;em&gt;: Lorem ipsum dolor sit <em>amet consectetur adipisicing elit</em>. Vitae perspiciatis optio ab esse eaque quos magnam nostrum laborum fugit velit?</p>
-        <p>&lt;del&gt;: Lorem ipsum dolor sit <del>amet consectetur adipisicing elit</del>. Vitae perspiciatis optio ab esse eaque quos magnam nostrum laborum fugit velit?</p>
-        <p>&lt;ins&gt;: Lorem ipsum dolor sit <ins>amet consectetur adipisicing elit</ins>. Vitae perspiciatis optio ab esse eaque quos magnam nostrum laborum fugit velit?</p>
-        <p>&lt;mark&gt;: Lorem ipsum dolor sit <mark>amet consectetur adipisicing elit</mark>. Vitae perspiciatis optio ab esse eaque quos magnam nostrum laborum fugit velit?</p>
-        <p>&lt;sup&gt;: Lorem ipsum dolor sit <sup>amet consectetur adipisicing elit</sup>. Vitae perspiciatis optio ab esse eaque quos magnam nostrum laborum fugit velit?</p>
-        <p>&lt;sub&gt;: Lorem ipsum dolor sit <sub>amet consectetur adipisicing elit</sub>. Vitae perspiciatis optio ab esse eaque quos magnam nostrum laborum fugit velit?</p>
-        <hr>
-        <h2>Uso de clases</h2>
+        <header>
+            <nav>
+                <a href="/listas.html">Listas</a>
+                <a href="/enlaces.html">Enlaces</a>
+                <a href="/multimedia.html">Multimedia</a>
+                <a class="active" href="/">Contenido</a>
+            </nav>
+        </header>
         <article>
-            <h3>Lorem ipsum dolor sit amet.</h3>
-            <img width="100" src="assets/user.svg" alt="Autor">
-            <ul>
+            <h1>Articulo con titular de importancia</h1>
+            <img class="centrar" width="100" src="assets/user.svg" alt="Autor">
+            <ul class="datos">
                 <li>Lucas Terracino</li>
                 <li>Full Stack Developer</li>
                 <li>🐦 @handle</li>
             </ul>
             <p class="resumen">Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Consequatur sapiente maxime</strong> tempore harum ipsam quibusdam.</p>
+            <p>Lorem ipsum <em class="selector-especial">dolor</em> sit amet consectetur, adipisicing elit. Qui, ab sit deserunt rerum assumenda velit illum repudiandae rem. Eius ut dignissimos tempora quidem qui ea molestias minima aperiam, ullam quisquam temporibus debitis inventore dolore maxime explicabo sed, eligendi vel sunt?</p>
+            <h2>Subtítulo numero uno</h2>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, ab sit deserunt rerum assumenda velit illum repudiandae rem. Eius ut dignissimos tempora quidem qui ea molestias minima aperiam, ullam quisquam temporibus debitis inventore dolore maxime explicabo sed, eligendi vel sunt?</p>
-            <h2 class="sub-titulo"></h2>
+            <h2>Subtítulo numero dos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, ab sit deserunt rerum assumenda velit illum repudiandae rem. Eius ut dignissimos tempora quidem qui ea molestias minima aperiam, ullam quisquam temporibus debitis inventore dolore maxime explicabo sed, eligendi vel sunt?</p>
         </article>
     </main>
     <footer>
