@@ -3,10 +3,8 @@
 # Camada 13290 Desarrollo Web
 ## Lucas Terracino
 
-### Clase 4
+### Clase 5
 ### CSS
-- Reglas de CSS para la letra
-- Utilización de Backgrounds
-- Darle estilo a las listas
-- Insertar nuevas tipografías
-- Entender las unidades de CSS
+- Box Modelling 💀
+- Tipos de Cajas
+- Posicionamiento de los elementos

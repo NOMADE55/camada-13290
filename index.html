@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clase 4 | C13290 Desarrollo Web</title>
+    <title>Clase 5 | C13290 Desarrollo Web</title>
     <link href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700&family=Space+Mono:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
@@ -13,19 +14,30 @@
     <main>
         <header>
             <nav>
-                <a href="/listas.html">Listas</a>
-                <a href="/enlaces.html">Enlaces</a>
-                <a href="/multimedia.html">Multimedia</a>
-                <a class="active" href="/">Contenido</a>
+                <ul>
+                    <li><a href="/">Cajas</a></li>
+                    <li><a href="/">Posiciones</a></li>
+                    <li><a class="active" href="/">Introducción</a></li>
+                    <li class="submenu">
+                        <span>Proyectos</span>
+                        <ul>
+                            <li><a href="">Enlace Interno 1</a></li>
+                            <li><a href="">Enlace Interno 2</a></li>
+                            <li><a href="">Enlace Interno 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
             </nav>
         </header>
+        <h1>
+            <span>1</span> Articulo con titular de importancia
+        </h1>
         <article>
-            <h1>Articulo con titular de importancia</h1>
             <img class="centrar" width="100" src="assets/user.svg" alt="Autor">
             <ul class="datos">
                 <li>Lucas Terracino</li>
                 <li>Full Stack Developer</li>
-                <li>🐦 @handle</li>
+                <li><span class="fab fa-twitter"></span> @handle</li>
             </ul>
             <p class="resumen">Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Consequatur sapiente maxime</strong> tempore harum ipsam quibusdam.</p>
             <p>Lorem ipsum <em class="selector-especial">dolor</em> sit amet consectetur, adipisicing elit. Qui, ab sit deserunt rerum assumenda velit illum repudiandae rem. Eius ut dignissimos tempora quidem qui ea molestias minima aperiam, ullam quisquam temporibus debitis inventore dolore maxime explicabo sed, eligendi vel sunt?</p>
@@ -35,6 +47,9 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, ab sit deserunt rerum assumenda velit illum repudiandae rem. Eius ut dignissimos tempora quidem qui ea molestias minima aperiam, ullam quisquam temporibus debitis inventore dolore maxime explicabo sed, eligendi vel sunt?</p>
         </article>
     </main>
+    <a class="whatsapp" href="https://wa.me/+0000000">
+        <span class="fab fa-whatsapp"></span>
+    </a>
     <footer>
         Copyright Lucas Terracino &copy; 2020
     </footer>
