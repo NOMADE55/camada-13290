@@ -3,8 +3,6 @@
 # Camada 13290 Desarrollo Web
 ## Lucas Terracino
 
-### Clase 5
+### Clase 6
 ### CSS
-- Box Modelling 💀
-- Tipos de Cajas
-- Posicionamiento de los elementos
+- Flexbox 🤍
