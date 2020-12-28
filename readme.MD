@@ -3,6 +3,6 @@
 # Camada 13290 Desarrollo Web
 ## Lucas Terracino
 
-### Clase 6
+### Clase 7
 ### CSS
-- Flexbox 🤍
+- Grid 🤍🤍🤍

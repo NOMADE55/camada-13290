@@ -3,52 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clase 6 | C13290 Desarrollo Web</title>
+    <title>Clase 7 | C13290 Desarrollo Web</title>
     <link href="https://fonts.gstatic.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700&family=Space+Mono:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/polygon.css" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <header>
+    <header>
+        <div class="container">
             <nav>
-                <ul>
-                    <li><a href="/boxes.html">Cajas</a></li>
-                    <li><a class="active" href="/">Introducción</a></li>
-                    <li class="submenu">
-                        <span>Proyectos</span>
-                        <ul>
-                            <li><a href="">SubLink 1</a></li>
-                            <li><a href="">SubLink 2</a></li>
-                            <li><a href="">SubLink 3</a></li>
-                        </ul>
-                    </li>
-                </ul>
+                <a href="/articulo.html">Articulo</a>
+                <a class="active" href="/">Layout</a>
             </nav>
-        </header>
-        <h1>Articulo con titular de importancia</h1>
-        <article>
-            <img class="centrar" width="100" src="assets/user.svg" alt="Autor">
-            <ul class="datos">
-                <li>Lucas Terracino</li>
-                <li>Full Stack Developer</li>
-                <li><span class="fab fa-twitter"></span> @handle</li>
-            </ul>
-            <p class="resumen">Lorem ipsum dolor sit amet consectetur adipisicing elit. <strong>Consequatur sapiente maxime</strong> tempore harum ipsam quibusdam.</p>
-            <p>Lorem ipsum <em class="selector-especial">dolor</em> sit amet consectetur, adipisicing elit. Qui, ab sit deserunt rerum assumenda velit illum repudiandae rem. Eius ut dignissimos tempora quidem qui ea molestias minima aperiam, ullam quisquam temporibus debitis inventore dolore maxime explicabo sed, eligendi vel sunt?</p>
-            <h2>Subtítulo numero uno</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, ab sit deserunt rerum assumenda velit illum repudiandae rem. Eius ut dignissimos tempora quidem qui ea molestias minima aperiam, ullam quisquam temporibus debitis inventore dolore maxime explicabo sed, eligendi vel sunt?</p>
-            <h2>Subtítulo numero dos</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, ab sit deserunt rerum assumenda velit illum repudiandae rem. Eius ut dignissimos tempora quidem qui ea molestias minima aperiam, ullam quisquam temporibus debitis inventore dolore maxime explicabo sed, eligendi vel sunt?</p>
-        </article>
-    </main>
-    <a class="whatsapp" href="https://wa.me/+0000000">
-        <span class="fab fa-whatsapp"></span>
-    </a>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Grillas</h1>
+        <main>
+            <h2>Una grilla normal</h2>
+            <section class="article-layout-grid">
+                <article>
+                    <a href="/articulo.html">
+                        <img src="http://placehold.it/860x700" alt="Lorem ipsum dolor">
+                        <div class="article-bottom">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veniam aut illum aliquam itaque dolorem dignissimos doloremque obcaecati inventore voluptates.</p>
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a href="/articulo.html">
+                        <img src="http://placehold.it/860x700" alt="Lorem ipsum dolor">
+                        <div class="article-bottom">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veniam aut illum aliquam itaque dolorem dignissimos doloremque obcaecati inventore voluptates.</p>
+                        </div>
+                    </a>
+                </article>
+                <article class="featured">
+                    <a href="/articulo.html">
+                        <img src="http://placehold.it/860x700" alt="Lorem ipsum dolor">
+                        <div class="article-bottom">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veniam aut illum aliquam itaque dolorem dignissimos doloremque obcaecati inventore voluptates.</p>
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a href="/articulo.html">
+                        <img src="http://placehold.it/860x700" alt="Lorem ipsum dolor">
+                        <div class="article-bottom">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veniam aut illum aliquam itaque dolorem dignissimos doloremque obcaecati inventore voluptates.</p>
+                        </div>
+                    </a>
+                </article>
+                <article>
+                    <a href="/articulo.html">
+                        <img src="http://placehold.it/860x700" alt="Lorem ipsum dolor">
+                        <div class="article-bottom">
+                            <h2>Lorem ipsum dolor sit amet.</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, veniam aut illum aliquam itaque dolorem dignissimos doloremque obcaecati inventore voluptates.</p>
+                        </div>
+                    </a>
+                </article>
+            </section>
+
+            <!-- <h2>Un choreo sutil</h2> -->
+            <section class="polygon-grid">
+                <article>
+                    <a class="img-wrapper" href="https://www.polygon.com/tv/2020/12/28/22202195/cobra-kai-season-3-review-netflix-release-date">
+                        <img src="https://cdn.vox-cdn.com/thumbor/BA4d9Vujbhlr7mDKqo1Leqpbjfc=/41x47:2048x1365/725x242/filters:focal(861x520:1187x846):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/68587403/131140641_2761866054027122_2518487934074105341_o.0.jpg" alt="Cobra kai season 3 is a comeback worthy of the Karate KidCobra kai season 3 is a comeback worthy of the Karate Kid">
+                    </a>
+                    <div class="data">
+                        <h3 class="category tv"><a href="">TV</a></h3>
+                        <h2><a href="">Cobra kai season 3 is a comeback worthy of the Karate Kid</a></h2>
+                        <h4><a href="">By Owen S. Good</a></h4>
+                    </div>
+                </article>
+                <article>
+                    <a class="img-wrapper" href="https://www.polygon.com/2020/12/28/22197688/best-board-games-rpgs-tabletop-2020">
+                        <img src="https://cdn.vox-cdn.com/thumbor/5r2UZst50nFBdRpGwKTU7UBgWZQ=/0x0:2040x1360/977x550/filters:focal(857x517:1183x843):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/68588475/jbareham_190517_0906_dice_0001.0.jpg" alt="The best tabletop games that we played in 2020">
+                    </a>
+                    <div class="data">
+                        <h3 class="category tabletop"><a href="">Tabletop Games</a></h3>
+                        <h2><a href="">The best tabletop games that we played in 2020</a></h2>
+                        <h4><a href="">By Charlie Hall</a></h4>
+                    </div>
+                </article>
+                <article>
+                    <a class="img-wrapper" href="https://www.polygon.com/2020/12/14/22166004/best-games-2020-ps4-xbox-one-switch-pc-series-x">
+                        <img src="https://cdn.vox-cdn.com/thumbor/75mrjbZYRFs4hnb1Db8Fsru_3Bg=/0x0:1920x1080/1150x575/filters:focal(807x387:1113x693):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/68510165/jbareham_201201_ecl1050_goty_2020_top_50_02.0.jpg" alt="The 50 best games of 2020">
+                    </a>
+                    <div class="data">
+                        <h3 class="category goty"><a href="">Games of the year 2020</a></h3>
+                        <h2><a href="">The 50 best games of 2020</a></h2>
+                        <h4><a href="">By Polygon Staff</a></h4>
+                    </div>
+                </article>
+                <article>
+                    <a class="img-wrapper" href="https://www.polygon.com/21538912/best-movies-2020">
+                        <img src="https://cdn.vox-cdn.com/thumbor/8Zt6pSUvcvvOagNqIewkz-QIZeE=/0x0:1920x1080/1750x875/filters:focal(832x518:1138x824):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/67703560/jbareham_201207_ecl1053_bestof2020_movies.6.jpg" alt="The best movies of 2020">
+                    </a>
+                    <div class="data">
+                        <h3 class="category movies"><a href="">Movies</a></h3>
+                        <h2><a href="">The best movies of 2020</a></h2>
+                        <h4><a href="">By Karen Han, Emily He</a>ller, and 3 more</h4>
+                    </div>
+                </article>
+                <article>
+                    <a class="img-wrapper" href="https://www.polygon.com/2020/12/25/22197670/wonder-woman-1984-superpowers-flying-invisible-jet-plane">
+                        <img src="https://cdn.vox-cdn.com/thumbor/U15NjaDX-gq5z4ZAgqVdGYp00_U=/0x0:6000x4000/1177x662/filters:focal(2520x1520:3480x2480):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/68581030/rev_1_WW84_04786r_High_Res_JPEG.0.jpeg" alt="Wonder Woman 1984 gives Gal Gadot’s Amazon a new — but classic — superpower">
+                    </a>
+                    <div class="data">
+                        <h3 class="category movies"><a href="">Movies</a></h3>
+                        <h2><a href="">Wonder Woman 1984 gives Gal Gadot’s Amazon a new — but classic — superpower</a></h2>
+                        <h4><a href="">By Susana Polo</a></h4>
+                    </div>
+                </article>
+                <article>
+                    <a class="img-wrapper" href="https://www.polygon.com/2020/12/28/22203055/star-citizen-squadron-42-release-date-beta-delayed-alpha-testing-funding">
+                        <img src="https://cdn.vox-cdn.com/thumbor/EBdTM-IzkOfZirEGxIK4t6QCN4w=/0x0:1440x742/977x550/filters:focal(871x166:1101x396):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/68588603/Source.0.jpg" alt="Star Citizen’s single-player campaign misses beta window, doesn’t have a release date">
+                    </a>
+                    <div class="data">
+                        <h3 class="category news"><a href="">News</a></h3>
+                        <h2><a href="">Star Citizen’s single-player campaign misses beta window, doesn’t have a release date</a></h2>
+                        <h4><a href="">By Owen S. Good</a></h4>
+                    </div>
+                </article>
+                <article>
+                    <a class="img-wrapper" href="https://www.polygon.com/2020/12/26/22197478/we-can-be-heroes-robert-rodriguez-interview-sharkboy-and-lavagirl">
+                        <img src="https://cdn.vox-cdn.com/thumbor/dHz8TBpyRjrzmeSOSe3j5H_O6F4=/0x0:2048x1088/777x437/filters:focal(861x381:1187x707):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/68582163/Guppy_Shark_3r5_v200429.47_wip.0.jpg" alt="The Sharkboy and Lavagirl universe is personal for Robert Rodriguez">
+                    </a>
+                    <div class="data">
+                        <h3 class="category movies"><a href="">Movies</a></h3>
+                        <h2><a href="">The Sharkboy and Lavagirl universe is personal for Robert Rodriguez</a></h2>
+                        <h4><a href="">By Petrana Radulovic</a></h4>
+                    </div>
+                </article>
+                <article>
+                    <a class="img-wrapper" href="https://www.polygon.com/2020/12/8/22149552/soul-pixar-interview-character-afterlife-designs">
+                        <img src="https://cdn.vox-cdn.com/thumbor/Cc3l68He7JyqSWWajEt9uOBAV10=/0x0:3000x2000/777x437/filters:focal(1290x482:1770x962):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/68470919/jbareham_201204_ecl1048_holiday_streaming_guide_soul_0001.0.jpg" alt="Soul producer explains the major changes the Pixar film underwent during development">
+                    </a>
+                    <div class="data">
+                        <h3 class="category polygon"><a href="">The Polygon 2020 holiday guide</a></h3>
+                        <h2><a href="">Soul producer explains the major changes the Pixar film underwent during development</a></h2>
+                        <h4><a href="">By Josh Spiegel</a></h4>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>
     <footer>
-        Copyright Lucas Terracino &copy; 2020
+        <div class="container">
+            <p>Copyright Lucas Terracino &copy; 2020</p>
+        </div>
     </footer>
 </body>
 </html>

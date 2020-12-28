@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+:root { font-size: 14px; }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* CHIPPED (0 0, calc(100% - 3rem) 0, 100% 3rem, 100% 100%, 0 100%); } */
+/* HEIGHT FIRST ROW 25REM */
+/* HEIGHT SECOND+ ROW 22REM */
+/* COLOR A: #da0050 */
+/* COLOR B: #612a46 */
+/* BGC:     #F8F8F6 */
