@@ -1,6 +1,5 @@
 * { box-sizing: border-box; }
 :root { font-size: 14px; }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 /* CHIPPED (0 0, calc(100% - 3rem) 0, 100% 3rem, 100% 100%, 0 100%); } */
 /* HEIGHT FIRST ROW 25REM */
@@ -8,3 +7,105 @@
 /* COLOR A: #da0050 */
 /* COLOR B: #612a46 */
 /* BGC:     #F8F8F6 */
+
+.article-layout-grid {
+    display: none;
+}
+
+.polygon-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 25rem;
+    grid-auto-rows: 22rem;
+    grid-auto-flow: dense;
+    gap: 4px;
+}
+
+.polygon-grid article {
+    position: relative;
+}
+
+.polygon-grid article .data {
+    position: absolute;
+}
+
+.polygon-grid article a {
+    display: block;
+}
+
+.polygon-grid article .category {
+    padding: 4px 8px;
+    font-size: .8rem;
+    display: inline-block;
+    color: #fff;
+    background-color: #da0050;
+    text-transform: uppercase;
+}
+
+.polygon-grid article .category a {
+    color: inherit;
+}
+
+.polygon-grid article .img-wrapper {
+    width: 100%;
+}
+
+.polygon-grid article .img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.polygon-grid article:first-child {
+    grid-column: span 3;
+}
+
+.polygon-grid article:nth-child(4),
+.polygon-grid article:nth-last-child(3) {
+    grid-column: span 2;
+}
+
+.polygon-grid article:nth-child(4) .data,
+.polygon-grid article:first-child .data,
+.polygon-grid article:nth-last-child(3) .data {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+}
+
+.polygon-grid article:nth-child(4) .data > *,
+.polygon-grid article:first-child .data > *,
+.polygon-grid article:nth-last-child(3) .data > * {
+    margin-bottom: 0;
+}
+
+.polygon-grid article:nth-child(4) .data > * + * ,
+.polygon-grid article:first-child .data > * + * ,
+.polygon-grid article:nth-last-child(3) .data > * + *  {
+    margin-top: 0.5rem;
+}
+
+
+.polygon-grid article:nth-child(4) .data a,
+.polygon-grid article:first-child .data a,
+.polygon-grid article:nth-last-child(3) .data a {
+    color: #fff;
+}
+
+.polygon-grid article:nth-child(4) .data h2,
+.polygon-grid article:first-child .data h2,
+.polygon-grid article:nth-last-child(3) .data h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.polygon-grid article:nth-child(4) .img-wrapper,
+.polygon-grid article:first-child .img-wrapper,
+.polygon-grid article:nth-last-child(3) .img-wrapper  {
+    width: 100%;
+    height: 100%;
+}
