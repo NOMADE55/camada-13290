@@ -88,11 +88,6 @@ h1 { font-size: 3rem; }
     box-shadow: none;
 }
 
-/* Nav */
-header nav  { display: flex; padding: 1rem 0; }
-header nav a, header nav span { text-transform: capitalize; background-color: #58C67A; color: #fff; display: block; padding: 0.5rem 1rem; cursor: crosshair; }
-header nav a:hover, header nav span:hover { background-color: #7fd89b; text-decoration: none; }
-header nav .active { font-weight: 700; }
 
 /* Footer */
 footer { padding-top: 2rem; padding-bottom: 2rem; }
