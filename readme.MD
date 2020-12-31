@@ -3,6 +3,8 @@
 # Camada 13290 Desarrollo Web
 ## Lucas Terracino
 
-### Clase 7
+### Clase 8
 ### CSS
-- Grid 🤍🤍🤍
+- Transformaciones
+- Transiciones
+- Animaciones

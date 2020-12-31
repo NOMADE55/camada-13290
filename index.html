@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase 8 | C13290 Desarrollo Web</title>
     <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700&family=Space+Mono:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/boxes.css">
+
 </head>
 <body>
     <main>
@@ -22,21 +24,76 @@
         <main>
             <div class="container">
                 <section class="grid-25">
-                    <div class="box">1</div>
-                    <div class="box">2</div>
-                    <div class="box">3</div>
-                    <div class="box">4</div>
-                    <div class="box">5</div>
-                    <div class="box">6</div>
-                    <div class="box">7</div>
-                    <div class="box">8</div>
+                    <div class="box wow animate__flipInX first">
+                        <img src="https://picsum.photos/500" alt="">
+                    </div>
+                    <div class="box wow animate__flipInX">
+                        <img src="https://picsum.photos/500" alt="">
+                    </div>
+                    <div class="box wow animate__flipInX">
+                        <img src="https://picsum.photos/500" alt="">
+                    </div>
+                    <div class="box wow animate__flipInY">
+                        <img src="https://picsum.photos/500" alt="">
+                    </div>
+                    <div class="box wow animate__flipInY">
+                        <img src="https://picsum.photos/500" alt="">
+                    </div>
+                    <div class="box wow animate__flipInY">
+                        <img src="https://picsum.photos/500" alt="">
+                    </div>
+                    <div class="box wow animate__flipInY">
+                        <img src="https://picsum.photos/500" alt="">
+                    </div>
+                    <div class="box wow animate__flipInY">
+                        <img src="https://picsum.photos/500" alt="">
+                    </div>
+                    <div class="box wow animate__flipInX">
+                        <img src="https://picsum.photos/500" alt="">
+                    </div>
+                    <div class="box wow animate__flipInX">
+                        <img src="https://picsum.photos/500" alt="">
+                    </div>
+                    <div class="box wow animate__flipInX">
+                        <img src="https://picsum.photos/500" alt="">
+                    </div>
+                    <div class="box wow animate__flipInX">
+                        <img src="https://picsum.photos/500" alt="">
+                    </div>
+                    <div class="box wow animate__flipInX">
+                        <img src="https://picsum.photos/500" alt="">
+                    </div>
+                    <div class="box wow animate__flipInX">
+                        <img src="https://picsum.photos/500" alt="">
+                    </div>
+                    <div class="box wow animate__flipInX">
+                        <img src="https://picsum.photos/500" alt="">
+                    </div>
+                    <div class="box wow animate__flipInX">
+                        <img src="https://picsum.photos/500" alt="">
+                    </div>
                 </section>
             </div>
+
+            <div class="loader-wrapper">
+                <div class="loader">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
             <div class="perspective">
-                <div class="box">3D BOI</div>
+                <div class="box wow animate__flipInX">3D BOI</div>
             </div>
         </main>
         <footer>Copyright &copy; 2020</footer>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+    <script>
+        const wow = new WOW({
+            animateClass: "animate__animated"
+        });
+        wow.init();
+    </script>
 </body>
 </html>
