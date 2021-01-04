@@ -3,6 +3,12 @@
 # Camada 13290 Desarrollo Web
 ## Lucas Terracino
 
-### Clase 7
-### CSS
-- Grid 🤍🤍🤍
+### Clase 9
+### Frameworks & Bootstrap
+- ¿Qué son los frameworks?
+- Bootstrap
+
+#### Bootstrap
+- ¿Cómo agregarlo a nuestro sitio web?
+- Entender su sistema de clases
+- Aprender como funciona el sistema de grillas

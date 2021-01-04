@@ -3,97 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clase 8 | C13290 Desarrollo Web</title>
-    <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700&family=Space+Mono:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="/css/reset.css">
+    <title>Clase 9 | C13290 Desarrollo Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="stylesheet" href="/css/boxes.css">
 
 </head>
 <body>
-    <main>
-        <header>
-            <div class="container">
-                <nav>
-                    <a href="/polygon.html">Polygon Mock</a>
-                    <a href="/">Boxes</a>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <div class="container">
-                <section class="grid-25">
-                    <div class="box wow animate__flipInX first">
-                        <img src="https://picsum.photos/500" alt="">
-                    </div>
-                    <div class="box wow animate__flipInX">
-                        <img src="https://picsum.photos/500" alt="">
-                    </div>
-                    <div class="box wow animate__flipInX">
-                        <img src="https://picsum.photos/500" alt="">
-                    </div>
-                    <div class="box wow animate__flipInY">
-                        <img src="https://picsum.photos/500" alt="">
-                    </div>
-                    <div class="box wow animate__flipInY">
-                        <img src="https://picsum.photos/500" alt="">
-                    </div>
-                    <div class="box wow animate__flipInY">
-                        <img src="https://picsum.photos/500" alt="">
-                    </div>
-                    <div class="box wow animate__flipInY">
-                        <img src="https://picsum.photos/500" alt="">
-                    </div>
-                    <div class="box wow animate__flipInY">
-                        <img src="https://picsum.photos/500" alt="">
-                    </div>
-                    <div class="box wow animate__flipInX">
-                        <img src="https://picsum.photos/500" alt="">
-                    </div>
-                    <div class="box wow animate__flipInX">
-                        <img src="https://picsum.photos/500" alt="">
-                    </div>
-                    <div class="box wow animate__flipInX">
-                        <img src="https://picsum.photos/500" alt="">
-                    </div>
-                    <div class="box wow animate__flipInX">
-                        <img src="https://picsum.photos/500" alt="">
-                    </div>
-                    <div class="box wow animate__flipInX">
-                        <img src="https://picsum.photos/500" alt="">
-                    </div>
-                    <div class="box wow animate__flipInX">
-                        <img src="https://picsum.photos/500" alt="">
-                    </div>
-                    <div class="box wow animate__flipInX">
-                        <img src="https://picsum.photos/500" alt="">
-                    </div>
-                    <div class="box wow animate__flipInX">
-                        <img src="https://picsum.photos/500" alt="">
-                    </div>
-                </section>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Mi Empresa</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navColapsable">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="loader-wrapper">
-                <div class="loader">
-                    <span></span>
-                    <span></span>
-                    <span></span>
+        <div class="collapse navbar-collapse" id="navColapsable">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Informacion <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fa fa-search mr-2"></i>Search</button>
+            </form>
+        </div>
+    </nav>
+    <main>
+        <section class="container">
+            <div class="row">
+                <aside class="col-md-3 col-xl-2 d-none d-md-block">
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, dolorum voluptates vitae laboriosam dolorem dignissimos cum vel dicta explicabo voluptatem?</p>
+                    <img class="mb-3 img-fluid" src="http://placekitten.com/g/300/300" alt="">
+                </aside>
+                <div class="col-md-9 col-10">
+                    <h1 title="H1 es el elemento mas importante de los títulos, por eso es el number one" data-placement="left" data-toggle="tooltip">Bootstrap </h1>
+                    <img src="https://placehold.it/1920x1080?text=Imagen+Imporantisima" class="img-fluid" alt="">
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, architecto vitae! Ut eaque praesentium eos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nam rem fugit, quaerat nisi suscipit consequatur dolorem velit molestiae quidem possimus! Iusto harum aspernatur dolor debitis, laboriosam sint pariatur rem ducimus velit incidunt vitae officiis vero hic mollitia totam! Quibusdam ipsum, reiciendis accusantium cum magni quos harum perferendis velit quis iure quae eveniet laborum error in. Totam mollitia corrupti laborum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nam rem fugit, quaerat nisi suscipit consequatur dolorem velit molestiae quidem possimus! Iusto harum aspernatur dolor debitis, laboriosam sint pariatur rem ducimus velit incidunt vitae officiis vero hic mollitia totam! Quibusdam ipsum, reiciendis accusantium cum magni quos harum perferendis velit quis iure quae eveniet laborum error in. Totam mollitia corrupti laborum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nam rem fugit, quaerat nisi suscipit consequatur dolorem velit molestiae quidem possimus! Iusto harum aspernatur dolor debitis, laboriosam sint pariatur rem ducimus velit incidunt vitae officiis vero hic mollitia totam! Quibusdam ipsum, reiciendis accusantium cum magni quos harum perferendis velit quis iure quae eveniet laborum error in. Totam mollitia corrupti laborum.</p>
                 </div>
             </div>
-            <div class="perspective">
-                <div class="box wow animate__flipInX">3D BOI</div>
+        </section>
+        <section class="container mb-3">
+            <h2>Tarjetas</h2>
+            <div class="row">
+                <div class="col-md-6 col-xl-8">
+                    <div class="card mb-4 border-0 shadow-lg">
+                        <div class="card-body btn-">
+                            <img class="card-img-top" src="/assets/dog.jpg" alt="Kayra">
+                            <h5 class="card-title">Tarjeta importante</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore id expedita cumque, exercitationem explicabo aut.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-xl-4">
+                    <div class="card mb-4 border-0 shadow-lg">
+                        <div class="card-body">
+                            <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+                            <h5 class="card-title">Tarjeta menos</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque, deserunt?</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </main>
-        <footer>Copyright &copy; 2020</footer>
-    </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
-    <script>
-        const wow = new WOW({
-            animateClass: "animate__animated"
-        });
-        wow.init();
-    </script>
+        </section>
+        <footer class="bg-dark text-white">
+            <div class="container py-4">
+                <div class="text-center text-monospace">Todos los derechos reservados &copy; 2020</div>
+            </div>
+        </footer>
+
+
+    <!-- MODALES -->
+    <div class="modal" id="unModal" tabindex="1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Titulo del modal</h5>
+                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <h2>Texto relevante</h2>
+                    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque accusamus dolore placeat nobis et qui?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, excepturi debitis, adipisci eveniet ipsa beatae aliquid repellendus nobis unde laboriosam sequi magnam nihil ab itaque eligendi porro illo! <strong>Harum nisi, eligendi voluptate rerum corrupti,</strong> ipsam exercitationem nostrum quam repellendus quas error. Enim numquam nam veniam. Eveniet fugiat corporis blanditiis iusto?</p>
+                    <img src="https://placehold.it/1920x1080" class="img-fluid" alt="">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://www.google.com.ar" class="btn btn-primary">Ok!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modalBorrar">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        BORRAR ALGO IMPORTANTE
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <h2>¿Seguro?</h2>
+                    <p>Está a punto de borrar algo <strong>Importante</strong></p>
+                    <p>¿Seguro desea continuar?</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="" class="btn btn-danger">Si, obvio.</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
