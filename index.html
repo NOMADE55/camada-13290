@@ -88,6 +88,82 @@
                 </div>
             </div>
         </section>
+        <section class="mb-3">
+            <div class="container">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Edad</th>
+                                <th>Comida preferida</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Leonardo Da Vinci</td>
+                                <td>22</td>
+                                <td>🍕</td>
+                            </tr>
+                            <tr>
+                                <td>Nikola Tesla</td>
+                                <td>18</td>
+                                <td>🍪</td>
+                            </tr>
+                            <tr>
+                                <td>Hideo Kojima</td>
+                                <td>25</td>
+                                <td>🍜</td>
+                            </tr>
+                            <tr>
+                                <td>Satoshi Nakamoto</td>
+                                <td>??</td>
+                                <td>??</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </section>
+        <section class="mb-3">
+            <div class="container">
+                <form action="http://prueba-local.test/" method="POST">
+                    <div class="form-group bg-primary p-3 rounded text-white">
+                        <label for="fullName">Nombre y Apellido</label>
+                        <input class="form-control" name="fullname" id="fullName" type="text">
+                    </div class="form-group">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input class="form-control" name="email" id="email" type="email">
+                    </div class="form-group">
+                    <div class="form-group">
+                        <label for="interest">¿En que podemos ayudarte?</label>
+                        <select class="form-control" name="interest" id="interest">
+                            <option value="Desarrollo Web">Desarrollo Web</option>
+                            <option value="Email Marketing">Email Marketing</option>
+                            <option value="Manejo de Redes Sociales">Manejo de Redes Sociales</option>
+                            <option value="Venta Online">Venta Online</option>
+                            <option value="Asesoramientro">Asesoramientro</option>
+                            <option value="Otro">Otro</option>
+                        </select>
+                    </div class="form-group">
+                    <div class="form-group">
+                        <label for="comments">¿Qué necesitas?</label>
+                        <textarea class="form-control" name="comments" id="comments" cols="30" rows="10"></textarea>
+                    </div>
+                    <button class="btn btn-primary" type="submit">Enviar ✉</button>
+                </form>
+                <hr>
+                <h2>Form de Suscripción</h2>
+                <form action="http://prueba-local.test/">
+                    <div>
+                        <input name="email" id="sub" type="email" placeholder="ejemplo@ejemplo.com">
+                        <button type="submit">Suscribirse</button>
+                    </div>
+                </form>
+            </div>
+        </section>
         <footer class="bg-dark text-white">
             <div class="container py-4">
                 <div class="text-center text-monospace">Todos los derechos reservados &copy; 2020</div>
