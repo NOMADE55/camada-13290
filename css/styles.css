@@ -1,0 +1,42 @@
+#calesita {
+    overflow: hidden;
+    border-radius: 45px;
+}
+
+#calesita .carousel-indicators li {
+    border: 0;
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+#calesita .carousel-indicators li.active {
+    border: 0;
+    background-color: #48c572;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+#calesita .carousel-arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    border-radius: 100%;
+}
+
+#calesita .carousel-arrow.prev {
+    left: 2rem;
+}
+
+#calesita .carousel-arrow.next {
+    right: 2rem;
+}
