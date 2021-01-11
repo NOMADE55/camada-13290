@@ -3,10 +3,19 @@
 # Camada 13290 Desarrollo Web
 ## Lucas Terracino
 
-### Clase 10
-### Bootstrap
-- Componentes con JS
-- Themes 👀
+### Clase 11
+### Uso de Terminal
+- Node
+- NPM
 
-### Responsive
-- Media Queries
+### Uso de Paquetes
+- SASS
+- Nodemon
+
+### SASS
+- Nesting
+- Variables
+- Imports
+
+### BEM
+- Sintaxis 👀

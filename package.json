@@ -1,0 +1,11 @@
+{
+  "name": "c13290",
+  "version": "1.0.0",
+  "description": "![Coderhouse](https://res.cloudinary.com/hdsqazxtw/image/upload/f_auto/v1557348830/coderhouse_avkeo7.svg) # Camada 13290 Desarrollo Web ## Lucas Terracino",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
