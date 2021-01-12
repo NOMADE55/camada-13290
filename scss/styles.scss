@@ -1,0 +1,12 @@
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #000;
+    span {
+        display: block;
+        color: red
+    }
+    & + p {
+        margin-top: 3rem;
+    }
+}

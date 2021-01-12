@@ -4,8 +4,13 @@
   "description": "![Coderhouse](https://res.cloudinary.com/hdsqazxtw/image/upload/f_auto/v1557348830/coderhouse_avkeo7.svg) # Camada 13290 Desarrollo Web ## Lucas Terracino",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/prueba.scss css/prueba.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
