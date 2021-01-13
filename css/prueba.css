@@ -7325,3 +7325,67 @@ header {
       .polygon-grid .polygon-grid__article:nth-last-child(3) .data .img-wrapper {
         width: 100%;
         height: 100%; }
+
+.polygon-cards {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto;
+  gap: 1rem; }
+  .polygon-cards .img-wrapper {
+    flex: 0 0 266px;
+    max-width: 266px; }
+    .polygon-cards .img-wrapper img {
+      max-width: 100%;
+      height: auto; }
+  .polygon-cards .data {
+    flex: 0 0 177px;
+    max-width: 177px;
+    padding: 1.5rem 1rem; }
+    .polygon-cards .data h2 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      font-family: "Montserrat", sans-serif;
+      white-space: break-spaces; }
+    .polygon-cards .data h3 {
+      font-size: 1rem;
+      font-family: serif; }
+  .polygon-cards article {
+    display: flex;
+    position: relative;
+    overflow: hidden; }
+    .polygon-cards article:nth-child(3) {
+      display: block; }
+      .polygon-cards article:nth-child(3) .img-wrapper {
+        clip-path: polygon(0 0, calc(100% - 3rem) 0, 100% 3rem, 100% 100%, 0 100%);
+        overflow: hidden; }
+      .polygon-cards article:nth-child(3) .data {
+        max-width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0; }
+        .polygon-cards article:nth-child(3) .data h2 {
+          color: #fff;
+          text-transform: uppercase;
+          text-align: center;
+          margin: auto;
+          font-size: 1rem; }
+        .polygon-cards article:nth-child(3) .data h3 {
+          display: none; }
+  @media (max-width: 1200px) {
+    .polygon-cards {
+      grid-template-columns: 1fr 1fr; }
+      .polygon-cards article .img-wrapper {
+        flex: 0 0 60%;
+        max-width: 60%; }
+      .polygon-cards article .data {
+        flex: 0 0 40%;
+        max-width: 40%; }
+      .polygon-cards article:nth-child(3) {
+        display: none; } }
+  @media (max-width: 767px) {
+    .polygon-cards {
+      display: block; }
+      .polygon-cards article + article {
+        margin-top: 2rem; } }

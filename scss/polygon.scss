@@ -212,3 +212,93 @@ header {
         }
     }
 }
+
+.polygon-cards {
+    $font-size-base: 1rem;
+    $image-size: 266px;
+    $data-size: 177px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    gap: 1rem;
+
+    .img-wrapper {
+        flex: 0 0 $image-size;
+        max-width: $image-size;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    .data {
+        flex: 0 0 $data-size;
+        max-width: $data-size;
+        padding: 1.5rem 1rem;
+        h2 {
+            font-size: $font-size-base * 1.25;
+            font-weight: 700;
+            font-family: "Montserrat", sans-serif;
+            white-space: break-spaces;
+        }
+
+        h3 {
+            font-size: $font-size-base;
+            font-family: serif;
+        }
+    }
+
+    article {
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        &:nth-child(3) {
+            display: block;
+            .img-wrapper {
+                clip-path: polygon(0 0, calc(100% - 3rem) 0, 100% 3rem, 100% 100%, 0 100%);
+                overflow: hidden;
+            }
+            .data {
+                max-width: 100%;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                h2 {
+                    color: #fff;
+                    text-transform: uppercase;
+                    text-align: center;
+                    margin: auto;
+                    font-size: 1rem;
+                }
+                h3 {display: none;}
+            }
+        }
+    }
+    @media (max-width: 1200px) {
+        grid-template-columns: 1fr 1fr;
+        article {
+            .img-wrapper {
+                flex: 0 0 60%;
+                max-width: 60%;
+            }
+
+            .data {
+                flex: 0 0 40%;
+                max-width: 40%;
+            }
+
+            &:nth-child(3) {
+                display: none;
+            }
+        }
+    }
+
+    @media (max-width: 767px) {
+        display: block;
+        article + article {
+            margin-top: 2rem;
+        }
+    }
+}
