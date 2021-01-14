@@ -3,19 +3,10 @@
 # Camada 13290 Desarrollo Web
 ## Lucas Terracino
 
-### Clase 11
-### Uso de Terminal
-- Node
-- NPM
-
-### Uso de Paquetes
-- SASS
-- Nodemon
-
+### Clase 12
 ### SASS
-- Nesting
-- Variables
-- Imports
-
-### BEM
-- Sintaxis 👀
+- Operaciones
+- Condicionales
+- Listas
+- Loops
+- Mapas

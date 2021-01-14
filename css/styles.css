@@ -1,25 +1,19 @@
 #calesita {
-    overflow: hidden;
-    border-radius: 45px;
-}
-
-#calesita .carousel-indicators li {
+  overflow: hidden;
+  border-radius: 45px; }
+  #calesita .carousel-indicators li {
     border: 0;
     background-color: #fff;
     width: 10px;
     height: 10px;
-    border-radius: 100%;
-}
-
-#calesita .carousel-indicators li.active {
-    border: 0;
-    background-color: #48c572;
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-}
-
-#calesita .carousel-arrow {
+    border-radius: 100%; }
+    #calesita .carousel-indicators li.active {
+      border: 0;
+      background-color: #48c572;
+      width: 10px;
+      height: 10px;
+      border-radius: 100%; }
+  #calesita .carousel-arrow {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -30,13 +24,24 @@
     font-size: 35px;
     display: block;
     text-align: center;
-    border-radius: 100%;
-}
+    border-radius: 100%; }
+    #calesita .carousel-arrow.prev {
+      left: 2rem; }
+    #calesita .carousel-arrow.next {
+      right: 2rem; }
 
-#calesita .carousel-arrow.prev {
-    left: 2rem;
-}
+.grid-espectaculos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-auto-rows: auto;
+  gap: 10rem; }
 
-#calesita .carousel-arrow.next {
-    right: 2rem;
-}
+.grid-base, .grid-deportes {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  border-radius: 1rem;
+  border: 1px solid; }
+
+.grid-deportes {
+  gap: 2rem;
+  background-color: #3cff00; }
