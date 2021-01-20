@@ -3,10 +3,9 @@
 # Camada 13290 Desarrollo Web
 ## Lucas Terracino
 
-### Clase 12
-### SASS
-- Operaciones
-- Condicionales
-- Listas
-- Loops
-- Mapas
+### Clase 13
+### SEO
+- Meta Keywords
+- Meta Description
+- Favicon
+- OG
