@@ -1,92 +1,41 @@
-$primary: #f05757;
-$secondary: #b374aa;
-// @import "bootstrap/bootstrap.scss";
-// @import "polygon.scss";
-@import "variables-que-me-mandaron.scss";
-@import "overrides-bootstrap.scss";
+@import "bootstrap/functions";
 
-$padding: 1rem !default;
-$highest-font-size: 5rem !default;
+$mint: #67E0AD;
+$strawberry: #c656c3;
+$red: #ee4545;
+$green: #2fb45b;
 
-.card {
-    $card-extra-padding: $padding % 10;
-    $card-padding: $padding - $card-extra-padding;
-    @if $padding < 10rem {
-        padding: $padding;
-    }
-}
 
-// Mixin
-@mixin easyGrid($tamanio: 400px, $espacio: 1rem, $altura: auto) {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax($tamanio, 1fr));
-    grid-auto-rows: $altura;
-    gap: max(1rem, $espacio);
-}
+$light: #f3f2f7;
+$dark: #1a1726;
 
-.grid-espectaculos {
-    @include easyGrid(400px, 10rem);
-}
-
-// @for $i from 1 to 7 {
-//     h#{$i} {
-//         $actual-font-size: $highest-font-size / $i;
-//         @if $actual-font-size < 1rem {
-//             font-size: 1rem;
-//         } @else {
-//             font-size: $actual-font-size;
-//         }
-//     }
-// }
-
-$animales: oso, vaca, perro, elefante, buey, cebra, leon;
-
-$colores: (
-    "primary": $primary,
-    "secondary": $secondary,
-    "dark": #424242,
-    "light": #efefef
+$colors: (
+    "mint": $mint,
+    "strawberry": $strawberry
 );
 
-// @each $color, $hex in $colores  {
-//     .bg-#{$color} {
-//         background-color: $hex;
-//     }
+$primary: $mint;
+$secondary: $strawberry;
 
-//     @if($color != "light") {
-//         .bg-#{$color}-light {
-//             background-color: lighten($hex, 10);
-//         }
-//     }
+$spacer: .5rem;
+$spacers: (
+    6: ($spacer * 5)
+);
 
-//     @if($color != "dark") {
-//         .bg-#{$color}-darken {
-//             background-color: darken($hex, 10);
-//         }
-//     }
-// }
+$body-bg: $light;
+$body-color: $dark;
 
+$link-color: $secondary;
 
-.grid-base {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    border-radius: 1rem;
-    border: 1px solid;
-}
+$grid-breakpoints: (
+    xs: 0,
+    xsm: 365px,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px
+);
 
-.grid-deportes {
-    @extend .grid-base;
-    gap: 2rem;
-    background-color: #3cff00;
-}
+$grid-gutter-width: 60px;
 
-
-
-
-
-
-
-// // Loop
-// @each $llave, $valor in $colors {
-//     .text-#{$llave} {color: $valor;}
-// }
+@import './bootstrap/bootstrap.scss';
